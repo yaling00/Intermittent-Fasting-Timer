@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermittent Fasting Timer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Intermittent Fasting Timer</h1>
+        <div class="card">
+            <div class="input-group">
+                <label for="firstMeal">First Meal Time:</label>
+                <input type="time" id="firstMeal" required>
+            </div>
+            
+            <div class="results">
+                <div class="result-item">
+                    <h3>Suggested Second Meal</h3>
+                    <p id="secondMeal">--:--</p>
+                </div>
+                <div class="result-item">
+                    <h3>Eating Window Ends</h3>
+                    <p id="lastMeal">--:--</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3>Guidelines</h3>
+                <p>Based on 16/8 Intermittent Fasting method:</p>
+                <ul>
+                    <li>Eating window is 8 hours</li>
+                    <li>Fasting window is 16 hours</li>
+                    <li>All meals must be completed within the eating window</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html> 
